@@ -1,8 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
-import Button from "./components/Button/Button";
+//import Button from "./components/Button/Button";
 import NavBar from "./components/Nav/Navbar";
-import CartWidget from './components/CartWidget/CartWidget';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
+
 
 //npm run start
 
@@ -13,8 +15,9 @@ function App() {
     <section>
 
       <NavBar/>
-      <CartWidget/>
-      <Button/>
+      <ItemListContainer greeting="Hola hjfkhyud">
+      </ItemListContainer>
+      
     </section>
 
 
